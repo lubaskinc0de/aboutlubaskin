@@ -14,7 +14,7 @@ export default function FollowMe() {
             <FollowMeTitle></FollowMeTitle>
             <FollowMeLinks></FollowMeLinks>
             <Navigation
-                elements={[<LinkTo url='/' text='<< Back'></LinkTo>]}
+                elements={[<LinkTo url='/about/' text='<< Back'></LinkTo>]}
             ></Navigation>
         </Container>
     );

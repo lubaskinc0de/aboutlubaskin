@@ -14,7 +14,7 @@ export default function AboutProjects() {
             <ProjectsTitle></ProjectsTitle>
             <ProjectsList></ProjectsList>
             <Navigation
-                elements={[<LinkTo url='/' text='<< Back'></LinkTo>]}
+                elements={[<LinkTo url='/about/' text='<< Back'></LinkTo>]}
             ></Navigation>
         </Container>
     );
