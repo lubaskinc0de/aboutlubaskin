@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/aboutlubaskin/static/css/main.b9a3f2af.css",
-    "main.js": "/aboutlubaskin/static/js/main.f1117d82.js",
+    "main.js": "/aboutlubaskin/static/js/main.2eb2f6a7.js",
     "static/media/bg.gif": "/aboutlubaskin/static/media/bg.76ac3f5c652e05ce5e53.gif",
     "static/media/etoya.jpg": "/aboutlubaskin/static/media/etoya.70af376cee829b0fe9ae.jpg",
     "static/media/cat.gif": "/aboutlubaskin/static/media/cat.544010e2dfb394b4fd52.gif",
     "index.html": "/aboutlubaskin/index.html",
     "main.b9a3f2af.css.map": "/aboutlubaskin/static/css/main.b9a3f2af.css.map",
-    "main.f1117d82.js.map": "/aboutlubaskin/static/js/main.f1117d82.js.map"
+    "main.2eb2f6a7.js.map": "/aboutlubaskin/static/js/main.2eb2f6a7.js.map"
   },
   "entrypoints": [
     "static/css/main.b9a3f2af.css",
-    "static/js/main.f1117d82.js"
+    "static/js/main.2eb2f6a7.js"
   ]
 }
