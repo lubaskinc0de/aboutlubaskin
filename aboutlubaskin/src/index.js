@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './index.css';
 
 import About from './components/About';
@@ -10,21 +10,15 @@ import FollowMe from './components/FollowMe';
 
 import './index.css';
 
-const router = createBrowserRouter([
-    {
-        path: '/',
-        element: <About></About>,
-    },
-    {
-        path: '/projects/',
-        element: <Projects></Projects>,
-    },
-    {
-        path: '/followme/',
-        element: <FollowMe></FollowMe>,
-    },
-]);
-
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<RouterProvider router={router}></RouterProvider>);
+
+root.render(
+    <BrowserRouter basename='/aboutlubaskin'>
+        <Routes>
+            <Route path='/' element={<About></About>}></Route>
+            <Route path='/projects/' element={<Projects></Projects>}></Route>
+            <Route path='/followme/' element={<FollowMe></FollowMe>}></Route>
+        </Routes>
+    </BrowserRouter>
+);
 
