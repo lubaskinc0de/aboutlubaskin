@@ -34,14 +34,16 @@ export default function AboutTextHeader() {
     }, []);
 
     return (
-        <p className='text-lg font-medium text-neutral-200'>
-            <p className='visually-hidden'>
-                Fullstack Game Backend Frontend Python JS Java Django React
+        <div className='text-lg font-medium text-neutral-200'>
+            <p>
+                <span className='visually-hidden'>
+                    Fullstack Game Backend Frontend Python JS Java Django React
+                </span>
+                <span aria-hidden={true} ref={el}>
+                    Fullstack
+                </span>{' '}
+                developer.
             </p>
-            <span aria-hidden={true} ref={el}>
-                Fullstack
-            </span>{' '}
-            developer.
-        </p>
+        </div>
     );
 }
