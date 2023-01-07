@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/lubaskin.site/static/css/main.494e5237.css",
-    "main.js": "/lubaskin.site/static/js/main.5a722bf7.js",
-    "static/media/bg.gif": "/lubaskin.site/static/media/bg.76ac3f5c652e05ce5e53.gif",
-    "static/media/etoya.jpg": "/lubaskin.site/static/media/etoya.70af376cee829b0fe9ae.jpg",
-    "static/media/cat.gif": "/lubaskin.site/static/media/cat.544010e2dfb394b4fd52.gif",
-    "index.html": "/lubaskin.site/index.html",
-    "main.494e5237.css.map": "/lubaskin.site/static/css/main.494e5237.css.map",
-    "main.5a722bf7.js.map": "/lubaskin.site/static/js/main.5a722bf7.js.map"
+    "main.css": "/aboutlubaskin/static/css/main.807a0922.css",
+    "main.js": "/aboutlubaskin/static/js/main.c20977d1.js",
+    "static/media/bg.gif": "/aboutlubaskin/static/media/bg.76ac3f5c652e05ce5e53.gif",
+    "static/media/etoya.jpg": "/aboutlubaskin/static/media/etoya.70af376cee829b0fe9ae.jpg",
+    "static/media/cat.gif": "/aboutlubaskin/static/media/cat.544010e2dfb394b4fd52.gif",
+    "index.html": "/aboutlubaskin/index.html",
+    "main.807a0922.css.map": "/aboutlubaskin/static/css/main.807a0922.css.map",
+    "main.c20977d1.js.map": "/aboutlubaskin/static/js/main.c20977d1.js.map"
   },
   "entrypoints": [
-    "static/css/main.494e5237.css",
-    "static/js/main.5a722bf7.js"
+    "static/css/main.807a0922.css",
+    "static/js/main.c20977d1.js"
   ]
 }
