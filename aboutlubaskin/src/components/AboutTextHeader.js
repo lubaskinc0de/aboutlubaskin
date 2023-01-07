@@ -8,7 +8,17 @@ export default function AboutTextHeader() {
 
     useEffect(() => {
         const typed = new Typed(el.current, {
-            strings: ['Fullstack', 'Game', 'Backend', 'Frontend', 'Python', 'JS', 'Java', 'Django', 'React'], // Strings to display
+            strings: [
+                'Fullstack',
+                'Game',
+                'Backend',
+                'Frontend',
+                'Python',
+                'JS',
+                'Java',
+                'Django',
+                'React',
+            ], // Strings to display
             startDelay: 70,
             typeSpeed: 70,
             backSpeed: 70,
@@ -24,10 +34,14 @@ export default function AboutTextHeader() {
     }, []);
 
     return (
-        <blockquote>
-            <p className='text-lg font-medium text-neutral-200'>
-                <span ref={el}>Fullstack</span> developer.
+        <p className='text-lg font-medium text-neutral-200'>
+            <p className='visually-hidden'>
+                Fullstack Game Backend Frontend Python JS Java Django React
             </p>
-        </blockquote>
+            <span aria-hidden={true} ref={el}>
+                Fullstack
+            </span>{' '}
+            developer.
+        </p>
     );
 }

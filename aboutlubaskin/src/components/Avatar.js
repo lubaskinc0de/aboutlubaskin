@@ -5,7 +5,7 @@ export default function Avatar() {
     return (
         <img
             className='w-24 h-24 rounded-full mx-auto'
-            alt='lubaskinc0de'
+            alt='lubaskinc0de collage with lions'
             src={avatar}
             width='384'
             height='512'

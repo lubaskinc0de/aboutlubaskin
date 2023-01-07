@@ -1,18 +1,21 @@
 import React from 'react';
 
 import Container from './Container';
+import Navigation from './Navigation';
+
 import FollowMeLinks from './FollowMeLinks';
+import FollowMeTitle from './FollowMeTitle';
 
 import LinkTo from './LinkTo';
 
 export default function FollowMe() {
     return (
         <Container>
-            <p className='text-center underline text-lg font-mono font-bold text-neutral-200'>
-                Follow me!
-            </p>
+            <FollowMeTitle></FollowMeTitle>
             <FollowMeLinks></FollowMeLinks>
-            <LinkTo url='/' text='<< Back'></LinkTo>
+            <Navigation
+                elements={[<LinkTo url='/' text='<< Back'></LinkTo>]}
+            ></Navigation>
         </Container>
     );
 }
